@@ -1,5 +1,8 @@
 # Learning-management-System-Moodle-
-# Some Screen Shots of Application
+
+This System is a simple Learning management system consist of Student Management, Online Quiz, Grading System, Event Calander, Chat Forum, Payment handling and an online book shop.
+
+# Some of screenshots from the application
 
 ![1](https://user-images.githubusercontent.com/39290498/41391116-61849aec-6fb6-11e8-87c7-0eaea6cd91c7.PNG)
 
