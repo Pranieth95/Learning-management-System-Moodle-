@@ -1,0 +1,100 @@
+html
+{ height: 100%;}
+
+*
+{ margin: 0;
+  padding: 0;}
+
+body
+{ font: normal .80em 'trebuchet ms', arial, sans-serif;
+ 
+background-image: url("6.png");
+ background-repeat: no-repeat;
+}
+
+p
+{ padding: 0 0 20px 0;
+  line-height: 1.7em;}
+
+
+
+
+#main, #logo, #menubar, #site_content, #footer
+{ margin-left: auto; 
+  margin-right: auto;}
+
+#header
+{ background: #025587;
+  height: 240px;}
+
+#logo
+{ width: 825px;
+  position: relative;
+  height: 168px;
+  background: #A80000 url(logo.png) no-repeat;}
+
+#logo #logo_text 
+{ position: absolute; 
+  top: 20px;
+  left: 0;}
+
+
+
+#menubar
+{ width: 877px;
+  height: 72px;
+  padding: 0;
+  background: #5A2C24 url(menu.png) repeat-x;} 
+
+
+
+#site_content
+{ width: 837px;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  padding: 20px 24px 20px 37px;
+  background: #FFF url(content.png) repeat-y;} 
+
+
+
+#content
+{ text-align: left;
+  width: 595px;
+  padding: 0;
+}
+
+
+
+#footer
+{ width: 878px;
+  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  height: 33px;
+  padding: 24px 0 5px 0;
+  text-align: center; 
+  background: #29425E url(footer.png) repeat-x;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;}
+
+#footer a
+{ color: #FFF;
+  text-decoration: none;}
+
+#footer a:hover
+{ color: #FFF;
+  text-decoration: underline;}
+
+
+
+
+h1 {
+    font-size: 150%;
+color: white;
+ text-align: center
+}
+
+h2 {
+
+color:red;
+ 
+}

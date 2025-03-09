@@ -1,0 +1,170 @@
+td {
+			   padding: 5px;
+		   }
+		   
+		   table {
+  			border-spacing: 10px 0;
+			border-collapse: separate;
+			}
+		   
+		   h1 { color: #666666; 
+		   font-family: 'Open Sans Condensed', sans-serif; 
+		   font-size: 44px; 
+		   font-weight: 700; 
+		   line-height: 64px; 
+		   margin: 0 0 0; 		   
+		   text-align: center; 
+		   text-transform: uppercase; 
+		   } 
+		   
+		   h2 { color: #A9A9A9; 
+		   font-family: 'Open Sans Condensed', sans-serif; 
+		   font-size: 34px; 
+		   font-weight: 700; 
+		   line-height: 48px; 
+		   margin: 0 0 0;   
+		   text-align: left; 
+		   text-transform: uppercase; 
+		   }
+		   
+		   p { color: #111; font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 28px; margin: 0 0 48px; } 
+		   	   
+			
+				.bb {
+				overflow: hidden;
+				background-color: #333;
+				font-family: Arial;
+				}
+				
+				.bb a {
+				float: left;
+				font-size: 16px;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+				}
+
+				.dropdown1 {
+				float: left;
+				overflow: hidden;
+				}
+
+				.dropdown1 .dropbtn {
+				font-size: 16px;    
+				border: none;
+				outline: none;
+				color: white;
+				padding: 14px 16px;
+				background-color: inherit;
+				}
+
+				.bb a:hover, .dropdown1:hover .dropbtn {
+				background-color: red;
+				}
+
+				.dropdown-content {
+				display: none;
+				position: absolute;
+				background-color: #f9f9f9;
+				min-width: 160px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				z-index: 1;
+				}
+
+				.dropdown-content a {
+				float: none;
+				color: black;
+				padding: 12px 16px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+				}
+
+				.dropdown-content a:hover {
+				background-color: #ddd;
+				}
+
+				.dropdown1:hover .dropdown-content {
+				display: block;
+				}
+				
+#main
+{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 177px;
+	left: 258px;
+	height: 182px;
+	width: 100%;
+}
+
+#header
+{
+	background: #015090;
+	height: 198px;
+	width: 100%;
+	position: absolute;
+	top: -177px;
+	left: -260px;
+}
+
+#logo
+{
+	width: 825px;
+	position: absolute;
+	height: 188px;
+	background: #025587 url(CIRPBanner1.png) no-repeat;
+	left: 365px;
+	top: 7px;
+}	
+
+.Cbutton, input[type=button]{
+	background-color: #226EC1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	margin: 10px;
+} 
+
+input[type=submit]:hover {
+    background-color: #55A2F5;
+}
+
+input[type=reset]:hover {
+    background-color: #55A2F5;
+}
+
+.Cbutton:hover {
+    background-color: #55A2F5;
+}
+
+input[type=button]:hover {
+    background-color: #55A2F5;
+}
+
+.Income{
+	display:none;}
+	
+select{
+   -webkit-appearance: button;
+   -webkit-border-radius: 2px;
+   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+   -webkit-padding-end: 20px;
+   -webkit-padding-start: 2px;
+   -webkit-user-select: none;
+   background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+   background-position: 97% center;
+   background-repeat: no-repeat;
+   border: 1px solid #AAA;
+   color: #555;
+   font-size: inherit; 
+   overflow: hidden;
+   padding: 5px 10px;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   width: 150px;
+}
